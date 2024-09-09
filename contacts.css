@@ -1,0 +1,43 @@
+body {
+    padding: 35px;
+}
+#title-page {
+    font-size: 35px;
+    color: purple;
+}
+#input-label {
+    margin: 35px 0;
+}
+input {
+    padding: 5px;
+    width: 250px;
+    max-width: 100%;
+}
+button {
+    padding: 10px 15px;
+    background-color: silver;
+    color:black;
+}
+.contact-entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+.name-initials {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color:yellow;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Full-Name {
+    font-size: 20px;
+    margin-left: 10px;
+    border-bottom: 1px solid #00000f;
+    padding: 10px;
+    flex-grow: 1;
+}
